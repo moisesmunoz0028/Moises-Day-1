@@ -1,0 +1,48 @@
+inet 192.168.108.132 - my IP
+
+cmd - 
+securecrt - for CLI
+SSH2 - port 22
+
+*to check and upgrade pyton*
+import sys
+print('version.sys')
+
+#py -m pip install --upgrade pip
+#py -m pip install netmiko
+
+
+*on CLI VIA SSH CONNECTION (securecrt)*
+rm -rf (to removed specific folder)
+ls (list of folders inside the device)
+mkdir (for creating folder inside the device)
+cd  (going inside the folder)
+echo (calling command)
+> (what type of file)
+cat (to view content)
+nano (to create a new file)
+ctrl + O (write)
+ctrl + x (exit)
+python3 (to run a program)
+cp (copy inside code to another)
+rm -r (remove)
+
+
+*to delete inside nano file*
+vi (filename)
+dd (hold)
+esc + :wq!
+
+
+*Metasploitable2-Linux*
+ifconfig (to view inet addr)
+
+192.168.108.139
+nmap -sV (to scan open ports)
+nmap -v (to scan open/close, exposed ports)
+msfconsole (to access console area of metasploit)
+
+search telnet_login (to view matching modules)
+
+
+
